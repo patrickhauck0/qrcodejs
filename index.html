@@ -4,20 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/font/font.css">
     <title>QR Code</title>
 </head>
 <body>
-    <h1>Crie seu QR Code gratuitamente!</h1>
-    <textarea maxlength="256" cols="50" rows="4" placeholder="Exemplo: www.youtube.com/seucanal"></textarea>
+    <div id="div_qrcode">
+        <h1 class="title">Crie seu QR Code <br> gratuitamente!</h1>
+        <textarea maxlength="256" cols="50" rows="4" placeholder="Exemplo: www.youtube.com/seucanal"  class="box_input"></textarea>
+        
+        <br>
 
-    <br>
-
-    <button onclick="GerarQRCode()">Clique aqui para gerar.</button>
+        <button onclick="GerarQRCode()" class="button_confirm">Clique aqui para gerar.</button>
     
-    <br>
+        <br>
 
-    <img id="QRCodeIMG" alt="QR Code">
+        <img id="QRCodeIMG" alt="QR Code">
+    </div>
 
+    <p id="rodape">Projeto criado utilizando a API do Google Charts</p>
     <script src="assets/js/script.js"></script>
 </body>
 </html>

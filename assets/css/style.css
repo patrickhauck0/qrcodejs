@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-height: 100vh;
+}
+
+body {
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    overflow: hidden;
+}
+
+#div_qrcode {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    padding-top: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 1.5em;
+}
+
+.box_input {
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+.button_confirm {
+    margin-bottom: 1.5em;
+    padding: 12px 50px;
+    border-radius: 10px;
+    background-color: #FFF;
+    color: black;
+    font-weight: 600;
+}
+
+#rodape {
+    padding-top: 97vh;
+    margin-bottom: 3vh;
+    text-align: center;
+    font-weight: bold;
+}
